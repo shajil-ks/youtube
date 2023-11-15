@@ -1,0 +1,56 @@
+.side-bar{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 55px;
+    background-color: white;
+    z-index: 200;
+    padding-top: 5px;
+    margin-left: 10px;
+    
+
+}
+.side-bar-link{
+    height: 43px;
+    width: 195px;
+    display: flex;
+    align-items: center;
+
+    
+
+}
+.side-bar-link:hover{
+    background-color: rgb(235, 235, 235);
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.side-bar-link img {
+    height: 24px;
+    margin-right: 20px;
+    margin-left: 25px;
+    
+}
+.subscription-sidebar{
+    margin-left: 25px;
+    font-weight: 500;
+    font-size: 16px;
+}
+.side-bar-link div{
+    font-family: roboto, arial;
+    font-size: 15px;
+    font-weight: 400;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
+
+
+}
+hr{
+    border-color: rgb(243, 246, 246);
+    opacity: 0.3;
+}
+.subscription-channel{
+    border-radius: 12px;
+}
